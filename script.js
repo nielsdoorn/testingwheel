@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const canvas = document.getElementById('wheel');
-    const context = canvas.getContext('2d');
     const spinButton = document.getElementById('spin-button');
     const resultDiv = document.getElementById('result');
     const assumptions = [

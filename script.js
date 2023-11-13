@@ -1,28 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
     const spinButton = document.getElementById('spin-button');
     const resultDiv = document.getElementById('result');
-    const assumptions = [
-        "User Interface is Intuitive",
-        "Happy Path Only",
-        "No Need for Documentation",
-        "One Environment Fits All",
-        "Limited User Personas",
-        "Performance is Not a Priority",
-        "Security is an Afterthought",
-        "Users Will Report Bugs",
-        "Complete Automation is Feasible",
-        "No Edge Cases",
-        "Localization is Easy",
-        "Infrequent Releases Are Safer",
-        "No Need for Regression Testing",
-        "Data Privacy is Not Crucial",
-        "Users Have High-End Devices",
-        "Accessibility is Optional",
-        "One Browser is Enough",
-        "Minimal User Input Variation",
-        "No Concurrent Users",
-        "Quick Fixes Are Effective"
-    ];
+    let assumptions = [];
+
+    fetch('assumptions.json')
+        .then(response => response.json())
+        .then(data => {
+            assumptions = data.assumptions;
+            // Now you can use the assumptions array as needed
+        })
+    .catch(error => console.error('Error loading assumptions:', error));
+
+    
     
 
     // Draw the wheel

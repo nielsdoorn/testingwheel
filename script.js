@@ -11,9 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
         })
     .catch(error => console.error('Error loading assumptions:', error));
 
-    
-    
-
     // Draw the wheel
     function drawWheel() {
         // Draw wheel segments and texts

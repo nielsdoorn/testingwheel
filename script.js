@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function spinWheel() {
         // Add spinning animation and select a random assumption
         let selectedAssumption = assumptions[Math.floor(Math.random() * assumptions.length)];
-        resultDiv.innerHTML = 'Selected Assumption: ' + selectedAssumption;
+        resultDiv.innerHTML = selectedAssumption;
     }
 
     // Initial draw

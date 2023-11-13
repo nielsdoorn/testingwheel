@@ -22,4 +22,6 @@ body {
     width: 500px;
     border: 1px solid lightcoral;
     margin: 20px auto;
+    line-height: 30px;
+    text-align: center;
 }

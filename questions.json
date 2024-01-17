@@ -17,7 +17,21 @@
       "What fallback or contingency plans does the system have if the primary data source fails?",
       "How does the system integrate with other data sources, and what is the process for data reconciliation?",
       "What are the long-term maintenance plans for the system, and how will it adapt to changing technology landscapes?",
-      "How does the system address legal and ethical considerations related to data use, especially with international clients?"
+      "How does the system address legal and ethical considerations related to data use, especially with international clients?",
+      "How does the system's design promote data literacy among users?",
+      "What training or support is provided to users to ensure they can effectively use the system?",
+      "How are changes to the system documented, and is there a version control process in place?",
+      "Are there any performance benchmarks or metrics that the system is expected to meet?",
+      "What methods are used to collect feedback from users, and how is this feedback utilized to improve the system?",
+      "How does the system manage changes in user demand over peak and off-peak times?",
+      "What is the process for routine system audits and who is responsible for conducting them?",
+      "What opportunities are there for automating more aspects of data collection and processing?",
+      "Is the system compliant with the latest data protection regulations, such as GDPR, and how does it ensure compliance?",
+      "How is system downtime managed and communicated to users, and what is the recovery process?",
+      "What are the disaster recovery and business continuity plans for the system?"
     ]
-  }
-  
+}
+
+
+
+      
